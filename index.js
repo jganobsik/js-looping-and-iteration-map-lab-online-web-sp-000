@@ -12,7 +12,7 @@ function nameToAttributes(list) {
     const first = driver.split(' ')[0];
     const last = driver.split(' ')[1];
 
-    return { firstName: frst, lastName: last };
+    return { firstName: first, lastName: last };
   });
 }
 
