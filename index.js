@@ -2,4 +2,7 @@
 
 function lowerCaseDrivers(array) {
   
+return list.map(function(driver) {
+    return driver.toLowerCase();
+  });
 }
